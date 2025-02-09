@@ -104,7 +104,7 @@
             const data = await response.json();
 
             if (!response.ok) {
-                errorDiv.innerText = data.message; // Show error message
+              alert(`Error: ${data.message}`); // Show error message
             } else {
                 localStorage.setItem("token", data.token); // Store authentication token
                 window.location.href = "/index.html"; // Redirect to dashboard
