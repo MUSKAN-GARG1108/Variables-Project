@@ -104,21 +104,21 @@
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         const confirmPassword = document.getElementById('confirmPassword').value;
-        const errorMessage = document.getElementById('error-message');
-        const successMessage = document.getElementById('success-message');
+        const termsAccepted = document.getElementById('terms').checked;
 
-        // Reset error message
-        errorMessage.innerText = "";
-        successMessage.innerText = "";
+        if (!termsAccepted) {
+            alert("Please accept the terms and conditions.");
+            return;
+        }
 
         // Password confirmation check
         if (password !== confirmPassword) {
-            errorMessage.innerText = "Passwords do not match!";
+            alert("Passwords do not match.");
             return;
         }
 
         try {
-            const response = await fetch(`${API_URL}/signup`, {
+            const response = await fetch("https://variables-project.onrender.com/signup", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name, email, password })
@@ -127,13 +127,12 @@
             const data = await response.json();
 
             if (!response.ok) {
-                errorMessage.innerText = data.message; // Show backend error
+              alert(`Error: ${data.message}`); // Show backend error
             } else {
                 successMessage.innerText = "Signup successful! Redirecting...";
-                setTimeout(() => window.location.href = "login.html", 2000);
+                window.location.href = "login.html";
             }
         } catch (error) {
-            errorMessage.innerText = "Error connecting to the server.";
             console.error("Signup error:", error);
         }
     });
