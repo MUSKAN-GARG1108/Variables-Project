@@ -63,6 +63,10 @@ app.post("/login", async (req, res) => {
     }
 });
 
+app.get("/", (req, res) => {
+    res.send("✅ EduVox Backend is Running!");
+});
+
 
 // Start the server
 const PORT = process.env.PORT || 5000;
