@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <div id="profile-info"></div>
+
+    <script>
+        async function loadProfile() {
+            const response = await fetch('/profile');
+            if (response.ok) {
+                const user = await response.json();
+                document.getElementById('profile-info').innerText = `Username: ${user.username}`;
+            } else {
+                alert('Not authenticated');
+                window.location.href = 'login.html';
+            }
+        }
+
+        loadProfile();
+    </script>
+</body>
+</html>

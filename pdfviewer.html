@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <style>
+        #pdf-canvas {
+            margin-bottom: 0px;
+        }
+        #speedControl {
+            width: 200px;
+        }
+        .highlight {
+            background-color: lightblue;
+            border-radius: 5px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDF Viewer with Text-to-Speech and Word Highlighting</h1>
+    
+    <!-- PDF Display -->
+    <div id="pdf-canvas"></div>
+    <div id="pdf-text"></div>
+
+    <!-- Speed Control UI -->
+    <label for="speedControl">Speech Speed:</label>
+    <input type="range" id="speedControl" min="0.5" max="2" step="0.1" value="1">
+    <span id="speedValue">1.0x</span>
+
+    <script>
+        const url = `PrinciplesOfBiology.pdf`;
+
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
+
+        let extractedText = "";
+        let utterance = null;
+        let speechRate = localStorage.getItem("speechRate") ? parseFloat(localStorage.getItem("speechRate")) : 1.0;
+        let isStopped = false;
+        let lastIndex = 0;
+        let wordsArray = [];
+
+        // Load the PDF and extract text
+        const loadingTask = pdfjsLib.getDocument(url);
+        loadingTask.promise.then(pdf => {
+            let text = "";
+            let pagesPromises = [];
+
+            for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                pagesPromises.push(pdf.getPage(pageNum).then(page => {
+                    return page.getTextContent().then(textContent => {
+                        return textContent.items.map(item => item.str).join(" ");
+                    });
+                }));
+            }
+
+            Promise.all(pagesPromises).then(pagesText => {
+                text = pagesText.join(" ");
+                extractedText = text;
+
+                // Wrap each word in a span for highlighting
+                wordsArray = text.split(" ");
+                let highlightedHTML = wordsArray.map(word => `<span>${word} </span>`).join("");
+                document.getElementById('pdf-text').innerHTML = highlightedHTML;
+
+                // Start speech
+                speak();
+            });
+        }).catch(reason => {
+            console.error('Error loading PDF:', reason);
+            alert('Error loading PDF: ' + reason.message);
+        });
+
+        function speak(startIndex = 0) {
+            utterance = new SpeechSynthesisUtterance(wordsArray.slice(startIndex).join(" "));
+            utterance.rate = speechRate;
+            
+            let wordSpans = document.querySelectorAll("#pdf-text span");
+            let currentIndex = startIndex;
+
+            // Adjust timing for highlighting each word
+            utterance.onboundary = (event) => {
+                if (event.name === "word" && currentIndex < wordSpans.length) {
+                    wordSpans.forEach(span => span.classList.remove("highlight")); // Remove old highlight
+                    wordSpans[currentIndex].classList.add("highlight"); // Highlight current word
+                    currentIndex++;
+                }
+            };
+
+            utterance.onend = () => {
+                console.log("Speech ended.");
+            };
+
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function stopSpeaking() {
+            window.speechSynthesis.cancel();
+            isStopped = true;
+        }
+
+        function continueSpeaking() {
+            if (isStopped) {
+                isStopped = false;
+                speak(lastIndex);
+            } else if (window.speechSynthesis.speaking && window.speechSynthesis.paused) {
+                window.speechSynthesis.resume();
+            }
+        }
+
+        function changeSpeed(rate) {
+            speechRate = rate;
+            localStorage.setItem("speechRate", speechRate);
+            document.getElementById("speedControl").value = speechRate;
+            document.getElementById("speedValue").innerText = speechRate + "x";
+        }
+
+        function rereadLastLines(lines = 5) {
+            let lastWords = wordsArray.slice(-lines * 10).join(" ");
+            speak(lastWords);
+        }
+
+        // Speech Recognition
+        const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+        recognition.continuous = true;
+        recognition.interimResults = false;
+        recognition.lang = 'en-US';
+
+        recognition.onresult = (event) => {
+            const transcript = event.results[event.resultIndex][0].transcript.trim().toLowerCase();
+
+            if (transcript.includes('stop')) {
+                stopSpeaking();
+            } else if (transcript.includes('pause')) {
+                window.speechSynthesis.pause();
+            } else if (transcript.includes('resume')) {
+                continueSpeaking();
+            } else if (transcript.includes('speed')) {
+                changeSpeedByVoice(transcript);
+            } else if (transcript.includes('reread')) {
+                rereadLastLines();
+            }
+        };
+
+        function changeSpeedByVoice(command) {
+            let words = command.split(" ");
+            let speedValue = parseFloat(words[words.length - 1]);
+
+            if (!isNaN(speedValue) && speedValue >= 0.5 && speedValue <= 2) {
+                changeSpeed(speedValue);
+                speak(`Speech speed set to ${speechRate}x`);
+            } else if (command.includes("increase")) {
+                speechRate = Math.min(speechRate + 0.1, 2);
+                changeSpeed(speechRate);
+            } else if (command.includes("decrease")) {
+                speechRate = Math.max(speechRate - 0.1, 0.5);
+                changeSpeed(speechRate);
+            }
+        }
+
+        recognition.onerror = (event) => {
+            console.error('Speech recognition error:', event.error);
+        };
+
+        recognition.onend = () => {
+            recognition.start();
+        };
+
+        recognition.start();
+
+        window.addEventListener('beforeunload', () => {
+            stopSpeaking();
+            recognition.stop();
+        });
+    </script>
+</body>
+</html>

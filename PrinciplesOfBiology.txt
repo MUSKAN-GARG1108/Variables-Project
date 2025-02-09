@@ -1,0 +1,685 @@
+Introduction to Biology and the Process of Science.
+Figure 1.1. This NASA image is a composite of several satellite-based views of Earth. (credit:
+modification of work by NASA/Concepts of Biology OpenStax).
+Viewed from space, Earth offers very few clues about the diversity of life forms that can be
+found there. The first forms of life on Earth are thought to have been microorganisms that
+existed for billions of years before plants and animals appeared. Mammals, birds, and flowers are
+all relatively recent additions to the planet, originating 130 to 200 million years ago. Humans
+have only inhabited this planet for the last 2.5 million years, and only in the last 200,000 years
+have humans started looking like we do today.
+1.1 Themes and Concepts of Biology.
+Biology is the science that studies life. What exactly is life? This may sound like a silly question
+with an obvious answer; however, it is not always easy to define life. For example, a branch of
+biology called virology studies viruses. Viruses exhibit some of the characteristics of life but
+lack others. It turns out that although viruses can attack living organisms, cause diseases, and
+even reproduce with the help of host cells, they do not meet all the criteria that biologists use to
+define life.
+From its earliest beginnings, biology has wrestled with four questions: What are the shared
+properties that make something “alive”? How do those various living things function? Planet
+earth has a diversity of life forms; how do we organize and classify these different organisms?
+Finally, how did this diversity arise, and how is it continuing? As new organisms are discovered
+every day, biologists continue to seek answers to these and other questions.
+Properties of Life
+All living organisms share the following key characteristics: order, response to stimuli,
+reproduction, adaptation, growth and development, homeostasis, and energy processing. These
+seven characteristics serve to define life. It is essential that students know these different
+properties of life and be able to explain each.
+Order
+Organisms are highly organized and consist of one or more cells. Even very simple, single-celled
+organisms are remarkably complex. Inside each cell, atoms come together through chemical
+bonding and form molecules. Molecules come together to form cell components or structures
+called organelles. Like the toad shown in Figure 1.2,
+multicellular organisms can consist of millions of
+cells. Different groups of cells then specialize in
+performing specific functions. Without order,
+specialization would not be possible.
+Figure 1.2 A toad represents a highly organized
+individual. (credit: "Ivengo(RUS)"/Wikimedia
+Commons)
+Response to Stimuli
+Organisms respond to diverse stimuli. For example, plants can bend toward a source of light or
+respond to touch (Figure 1.3). Even tiny bacteria can move toward or away from chemicals, a
+process called chemotaxis. A movement toward a stimulus is considered a positive response,
+while movement away from a stimulus is regarded as a negative response.
+Humans also respond to stimuli. For example, when we become warm on a hot sunny day, the
+body has tiny glands called sudoriferous, or sweat,
+glands that make and release sweat onto the skin's
+surface. The heat from the body can be transferred to
+the sweat, which acts as a cooling mechanism and
+helps to maintain constant body temperature.
+Figure 1.3 The leaves of this sensitive plant (Mimosa
+pudica) will instantly droop and fold when touched.
+After a few minutes, the plant returns to its normal
+state. (credit: Alex Lomas/Concepts of Biology
+OpenStax)
+
+CONCEPTS IN ACTION- Watch this video to see how the sensitive plant responds to a touch
+stimulus.
+Reproduction
+Reproduction is necessary on both a cellular and organismal level. For a population to survive,
+some individuals within that population must reproduce. Organisms that are multicellular, such
+as plants and animals, also need to reproduce on a cellular level. As old cells become damaged or
+worn out, they must be replaced by new cells. For example,
+skin cells are damaged continuously and need to be replaced
+every two to three weeks; otherwise, the skin would lose its
+ability to provide protection.
+Single-celled organisms must also reproduce. Reproduction
+begins by first duplicating their genetic material. Once the
+genetic material is duplicated, it is then divided equally into
+two new cells (Figure 1.4). The two new daughter cells should
+be identical to the parent cell.
+Figure 1.4 Bacteria cell going through division. (credit:
+Pradana Aumars/Wikimedia Commons)
+Adaptation
+All living organisms exhibit a “fit” to their environment. Biologists refer to this fit as
+adaptation. Adaptations are a consequence of evolution by natural selection. Evolution has had
+some impact on every lineage of reproducing organisms. Examples of adaptations are diverse
+and unique. For example, some microorganisms live in boiling hot springs, whereas some moths
+have tongues the exact length of the flower from which they feed.
+Adaptations are vital because they enhance an individual's ability to survive and reproduce;
+however, adaptations are not constant. As an environment changes, natural selection causes the
+individuals in a population to adapt to those changes.
+For example, imagine that there is a population of finches living on an island. An environmental
+event has resulted in two main food sources: soft insects and hard seeds. Not all finches within
+the population have the same beak length or size. Finches in the population that have long,
+skinny beaks begin to feed on soft insects because they are easy for those birds to catch and eat.
+Finches with large, more dense beaks feed on hard seeds because their dense beaks allow them to
+4 Return to Table of Contents
+crush and open the hard seeds. Unfortunately, finches that have beaks that are neither long nor
+dense may slowly begin to decline in number because they are limited in their ability to obtain
+nutrients. Finches that obtain food can put energy into reproduction and survival needs. When
+those finches reproduce, they pass along those adaptations that allow them to be successful in
+their respective feeding environments. Over time two distinct groups may arise, those with thick,
+dense beaks and those with longer skinnier beaks (Figure 1.5). If these individuals genetically
+change in such a way that they no longer can interbreed with one another, a speciation event will
+have occurred.
+Figure 1.5 Different finch phenotype variations
+due to environmental changes.
+(credit: National Human Genome Research
+Institute's Talking Glossary/Wikimedia
+Commons)
+Growth and Development
+Development is often described as the processes that an individual goes through as it grows and
+matures. For example, in humans, development begins once the sperm fertilizes the egg. Human
+development can be broken down into different stages including embryonic development, fetal
+development, infancy, childhood, puberty, and adulthood. Development can also be observed in
+many other organisms. For example, butterflies go through a developmental process called
+metamorphosis that begins at the egg stage and then proceeds to the larva, pupa, and adult stages.
+Both multicellular and single-celled organisms grow and develop according to specific
+instructions encoded in their DNA. DNA is organized into genes that provide information for
+cellular growth and development. An individual's DNA ensures that a species’ young (Figure
+1.6) will grow up to exhibit many of the same traits as its parents.
+Figure 1.6 Although no two looks alike, these
+kittens have inherited genes from both parents and
+share many of the same characteristics. (credit:
+Pieter & Renée Lanser/ Concepts of Biology
+OpenStax)
+Homeostasis
+Even the smallest organisms are complex and require multiple regulatory mechanisms to
+coordinate internal functions, such as the transport of nutrients (Figure 1.7), response to stimuli,
+and coping with environmental stresses. Homeostasis or “steady state” is the ability of an
+organism to regulate and maintain constant internal conditions.
+Figure 1.7 Human circulatory system plays an important role
+in transporting oxygen, removal of waste, and delivering
+nutrients to every cell. (credit: Public domain/Wikimedia
+Commons)
+Cells require appropriate conditions such as proper temperature, pH, and concentrations of
+nutrients to function correctly. Although these conditions may change, organisms can maintain
+internal conditions within a narrow range. For example, many organisms regulate their body
+temperature in a process known as thermoregulation. Organisms that live in cold climates, such
+as the polar bear (Figure 1.8), have body structures such as thick layers of fur or fat, which help
+them withstand low temperatures and conserve body heat. In hot climates, plants carry out
+unique versions of photosynthesis to reduce water loss and optimize their potential of making
+sugar.
+Figure 1.8a. Polar bears and other mammals living in ice-covered regions keep their body
+temperature relatively constant, even though the environment can be very hot during the day and
+cold at night. (credit: "longhorndave"/Flickr) b. Polar bear maintain their body temperature by
+generating heat and reducing heat loss through thick fur and a dense layer of fat under their skin.
+In this infrared image the polar bear‘s body heat hardly registers; only the uninsulated eyes and
+mouth show temperatures significantly warmer than the environment. (credit:
+Arno/Coen/Wikimedia Commons)
+a b
+6 Return to Table of Contents
+Organisms like humans (Figure 1.9), use their skeletal muscles to generate heat. The contraction
+of skeletal muscles helps humans maintain stable internal body temperature as environmental
+conditions fluctuate. If body temperature drops below a certain point, metabolism begins to slow
+and may even stop, leading to death. Conversely, if body temperature rises above a certain point,
+it can lead to the destruction of key molecules called proteins. Students that continue and take
+Anatomy and Physiology classes will spend time discussing how the body works to maintain
+homeostasis. Students will also look at what occurs when the body loses its ability to maintain
+stable internal conditions, otherwise referred to as a homeostatic imbalance.
+Figure 1.9 Thermogram of a snake
+wrapped around a human arm.
+(credit: Arno/Coen/Wikimedia
+Commons)
+Energy Processing
+All organisms, including the California condor shown in Figure 1.10, use a source of energy for
+their metabolic activities. Some organisms can obtain energy through metabolic pathways such
+as photosynthesis. Photosynthesis is a process where light energy can be captured and converted
+into chemical energy. Organisms that are capable of making their own chemical energy are
+referred to as autotrophs. Others must obtain their chemical energy by consuming other
+organisms. These individuals are referred to as heterotrophs. Regardless of whether an
+organism is an autotroph or a heterotroph, all living cells must have energy to drive metabolism.
+Figure 1.10 A lot of energy is required for a California
+condor to fly. (credit: Pacific Southwest Region U.S. Fish
+and Wildlife/ Concepts of Biology OpenStax)
+Levels of Organization of Living Things
+Living things are highly organized and structured. The atom is the
+smallest and most fundamental unit of matter. It consists of a
+nucleus surrounded by electrons. Atoms form molecules. A
+molecule is a chemical structure consisting of at least two atoms
+held together by a chemical bond. Many biologically important
+molecules are macromolecules. A macromolecule is a large
+molecule that is typically formed by combining smaller molecules.
+For example, nucleotides are small molecules linked together to
+form the macromolecule, DNA (deoxyribonucleic acid) (Figure
+1.11). DNA contains the instructions necessary for cells and
+organisms to maintain homeostasis.
+Figure 1.11 A molecule, like this large DNA molecule, is composed
+of atoms. (credit: "Brian0918"/Wikimedia Commons)
+CONCEPTS IN ACTION- To see an animation of this DNA molecule, click here.
+Some cells contain collections of macromolecules surrounded by membranes; these are called
+organelles. Organelles are small structures that exist within cells and perform specialized
+functions. For example, in some cells, DNA is enclosed within a membrane-bound organelle
+called the nucleus (plural: nuclei). All living things are made of cells; the cell is the smallest
+fundamental unit found in living organisms. Cells exhibit all of the properties of life discussed
+above. Viruses are often not considered living because they are not made of cells, nor are they
+capable of reproducing on their own. To make new viruses, they must invade and take over a
+living cell.
+Some organisms consist of a single cell, while others are multicellular. In most multicellular
+organisms, cells combine to make tissues, which are groups of similar cells carrying out the
+same function. Organs are collections of tissues grouped based on a common function. Organs
+are present not only in animals but also in plants. An organ system is a higher level of
+organization that consists of functionally related organs. For example, vertebrate animals have
+many organ systems, such as the circulatory system that transports blood throughout the body; it
+includes organs such as the heart and blood vessels. Organisms are individual living entities. For
+example, each tree in a forest is an organism. Single-celled prokaryotes and single-celled
+eukaryotes are also considered organisms and are typically referred to as microorganisms.
+8 Return to Table of Contents
+Figure 1.12 From an atom to the entire Earth,
+biology examines all aspects of life. (credit
+"molecule": modification of work by Jane
+Whitney; credit "organelles": modification of
+work by Louisa Howard; credit "cells":
+modification of work by Bruce Wetzel, Harry
+Schaefer, National Cancer Institute; credit
+"tissue": modification of work by
+"Kilbad"/Wikimedia Commons; credit "organs":
+modification of work by Mariana Ruiz Villareal,
+Joaquim Alves Gaspar; credit "organisms":
+modification of work by Peter Dutton; credit
+"ecosystem": modification of work by
+"gigi4791"/Flickr; credit "biosphere":
+modification of work by NASA/ Concepts of
+Biology OpenStax)
+All the individuals living within a specific area are collectively called a population. For
+example, a forest may include many white pine trees. All these pine trees represent the
+population of white pine trees in this forest. Different populations may live in the same area. The
+forest with the pine trees includes populations of flowering plants, insects, and microbial
+populations. A community is the set of populations inhabiting a particular area. For instance, all
+the trees, flowers, insects, and other populations in a forest form the forest’s community. The
+forest itself is an ecosystem. An ecosystem consists of all the living things in a particular area
+together with the abiotic, or non-living, parts of that environment, such as nitrogen in the soil or
+rainwater. At the highest level of organization (Figure 1.12), the biosphere is the collection of all
+ecosystems on planet Earth. It includes land, water, and portions of the atmosphere.
+Answer: (b)
+The Diversity of Life
+The science of biology is very broad because there is a tremendous diversity of life on Earth. The
+source of this diversity is evolution. Evolution is the process of genetic change in a population.
+Evolution helps explain how new species can arise from older species. Speciation events can
+occur when individuals within a population are separated and begin to change or evolve
+independently of one another. If the individuals change to the point where they can no longer
+interbreed, a speciation event has occurred, and species diversity has increased. Evolution will be
+discussed in much greater detail in chapter 11.
+In the 18th century, a Swedish scientist named Carl Linnaeus first proposed organizing living
+organisms into a hierarchical taxonomy. In this system, species that are most similar to each
+other are put together within a grouping known as a genus. Furthermore, similar genera (the
+plural of genus) are put together within a family. This grouping continues until all organisms are
+collected together into groups at the highest level. The current taxonomic system now has eight
+levels in its hierarchy, from lowest to highest, they are species, genus, family, order, class,
+phylum, kingdom, and domain (Figure 1.13).
+10 Return to Table of Contents
+Figure 1.13 This diagram shows the levels of taxonomic hierarchy for a dog, from the broadest
+category—domain—to the most specific—species. (credit: Fowler et al./Concepts of Biology
+OpenStax)
+The highest taxonomy level, domain, is a relatively new addition (1990's) to the system.
+Scientists now recognize three domains of life: the Eukarya, the Archaea, and the Bacteria. The
+domain Eukarya is very diverse and includes the kingdoms of fungi, plants, animals, and several
+kingdoms of protists. Humans, plants, yeast, and mushrooms are just a few representatives of the
+domain Eukarya. These organisms are classified as eukaryotes because they have nuclei and
+other membrane-bound organelles. Both the Archaea and Bacteria are single-celled organisms
+classified as prokaryotes (Figure 1.14). Prokaryotes are organisms that lack nuclei and other
+membrane-bound organelles. Prokaryotes, like eukaryotes, are very diverse and can be
+subdivided into phyla, class, order, etc.
+Figure 1.14 These images represent different domains. The scanning electron micrograph shows
+(a) bacterial cells belong to the domain Bacteria, while the (b) extremophiles, seen all together as
+colored mats in this hot spring, belong to domain Archaea. Both the (c) sunflower and (d) lion
+are part of the domain Eukarya. (credit a: modification of work by Rocky Mountain
+Laboratories, NIAID, NIH; credit b: modification of work by Steve Jurvetson; credit c:
+modification of work by Michael Arrighi; credit d: modification of work by Frank Vassen /
+Concepts of Biology OpenStax)
+Evolution in Action - Carl Woese and the Phylogenetic Tree
+The evolutionary relationships of various life forms on Earth can be summarized in a
+phylogenetic tree. A phylogenetic tree is a diagram showing the evolutionary relationships
+among biological species based on similarities and differences in genetic or physical traits or
+both.
+The pioneering research of American microbiologist Carl Woese at the University of Illinois has
+shown that life on Earth has evolved along three lineages, now called domains. The phylogenic
+tree in Figure 1.15 can be used to show the separation of living organisms into those three
+domains: Bacteria, Archaea, and Eukarya.
+Figure 1.15 This
+phylogenetic tree was
+constructed by
+microbiologist Carl
+Woese using genetic
+relationships. (credit:
+modification of work
+by Eric Gaba/
+Concepts of Biology
+OpenStax)
+Branches of Biological Study
+The scope of biology is broad and therefore contains many branches and sub-disciplines. For
+instance, molecular biology studies biological processes at the molecular level, including
+interactions among molecules such as DNA, RNA, and proteins. Microbiology is the study of the
+structure and function of microorganisms. It is quite a broad branch itself, and depending on the
+subject of study, there are also microbial physiologists, ecologists, and geneticists, among others.
+Paleontology, another branch of biology, uses fossils to study life’s history (Figure 1.16).
+Zoology and botany are the study of animals and plants, respectively. Biologists can also
+specialize as biotechnologists, ecologists, or physiologists, to name just a few areas.
+12 Return to Table of Contents
+Biotechnologists apply the knowledge of
+biology to create useful products. Ecologists
+study the interactions of organisms in their
+environments. Physiologists study the
+workings of cells, tissues, and organs. This is
+just a small sample of the many fields that
+exist within biology.
+Figure 1.16 Researchers work on excavating
+dinosaur fossils at a site in Castellón, Spain.
+(credit: Mario Modesto/ Concepts of Biology
+OpenStax)
+CAREER CONNECTION - Forensic Scientist
+Forensic science is the application of science to answer questions related to the law. Biologists,
+as well as chemists and biochemists, can be forensic scientists. Forensic scientists provide
+scientific evidence for use in courts, and their job involves examining trace materials associated
+with crimes. Interest in forensic science has increased in the last few years, possibly because of
+popular television shows that feature forensic scientists on the job.
+The development of molecular techniques and the establishment of DNA databases have updated
+the types of work that forensic scientists can do. Their job activities are primarily related to
+crimes against people, such as murder, rape, and assault. Their work involves analyzing samples
+such as hair, blood, and other body fluids, and processing DNA (Figure 1.17a) found in many
+different environments and materials. Forensic scientists also analyze biological evidence left at
+crime scenes, such as insect parts or pollen grains (Figure 1.17b). Students who want to pursue
+careers in forensic science will most likely be required to take chemistry and biology courses as
+well as some intensive math courses.
+Figure 1.17a This forensic scientist works in a DNA extraction lab. (credit: U.S. Army CID
+Command Public Affairs/ Concepts of Biology OpenStax) b. This scientist uses microscopy for
+sample analysis. (credit: National Cancer Institute /Public Domain)
+Section Summary
+Biology is the science of life. All living organisms share several key properties such as order,
+response to stimuli, reproduction, adaptation, growth and development, homeostasis, and energy
+processing. Living things are highly organized following a hierarchy that includes atoms,
+molecules, organelles, cells, tissues, organs, and organ systems. Organisms are grouped as
+populations, communities, ecosystems, and the biosphere. Evolution is the source of the
+tremendous biological diversity on Earth today. A diagram called a phylogenetic tree can be used
+to show evolutionary relationships among organisms. Biology is very broad and includes many
+branches and sub-disciplines. Examples include molecular biology, microbiology, neurobiology,
+and ecology, among others.
+Exercises
+1. Which of the following statements is false?
+a. Tissues exist within organs which exist within organ systems.
+b. Communities exist within populations which exist within ecosystems.
+c. Organelles exist within cells which exist within tissues.
+d. Communities exist within ecosystems which exist in the biosphere.
+2. The smallest unit of biological structure that meets the functional requirements of
+“living” is the ________.
+a. organ
+b. organelle
+c. cell
+d. macromolecule
+3. Which of the following sequences represents the hierarchy of biological organization
+from the most complex to the least complex level?
+a. organelle, tissue, biosphere, ecosystem, population
+b. organ, organism, tissue, organelle, molecule
+c. organism, community, biosphere, molecule, tissue, organ
+d. biosphere, ecosystem, community, population, organism
+4. Briefly explain how evolution is a source of species diversity.
+Answers
+1. (b)
+2. (c)
+3. (d)
+4. Evolution leads to genetic changes in a population. For example, if you had a population of
+insects that live on a maple tree, some insects may begin to feed selectively on the bark of the
+tree, while others may selectively feed on the leaves. Over time, genetic changes can occur that
+may prevent these two groups from breeding with one another. In this case, a speciation event has
+occurred, increasing species diversity.
+14 Return to Table of Contents
+Glossary
+atom: a basic unit of matter that cannot be broken down by normal chemical reactions
+autotroph: an organism that can make its own food from materials in its environment
+biology: the study of living organisms and their interactions with one another and their
+environments
+biosphere: a collection of all ecosystems on Earth
+cell: the smallest fundamental unit of structure and function in living things
+community: a set of populations inhabiting a particular area
+domain: the highest level of the taxonomic hierarchy; includes the Eukarya, Archaea, and
+Bacteria
+ecosystem: all living things in a particular area together with the abiotic, nonliving parts of that
+environment
+eukaryote: an organism with cells that have nuclei and membrane-bound organelles
+evolution: the process of gradual change in a population that can also lead to new species arising
+from older species
+heterotroph: an organism that cannot make its own food and must consume other organisms to
+obtain its energy
+homeostasis: the ability of an organism to maintain constant internal conditions
+macromolecule: a large molecule typically formed by the joining of smaller molecules
+molecule: a chemical structure consisting of at least two atoms held together by a chemical bond
+organ: a structure formed of tissues operating together to perform a common function
+organ system: the higher level of organization that consists of functionally related organs
+organelle: a membrane-bound compartment or sac within a cell
+organism: an individual living entity
+phylogenetic tree: a diagram showing the evolutionary relationships among biological species
+based on similarities and differences in genetic or physical traits or both
+population: all individuals within a species living within a specific area
+prokaryote: a unicellular organism that lacks a nucleus or any other membrane-bound organelle
+tissue: a group of similar cells carrying out the same function
+1.2 The Process of Science
+Figure 1.18 (a) cyanobacteria seen through a light microscope are some of Earth’s oldest life
+forms (b) stromatolites along the shores of Lake Thetis in Western Australia are ancient
+structures formed by the layering of cyanobacteria in shallow waters. (credit a: modification of
+work by NASA; scale-bar data from Matt Russell; credit b: modification of work by Ruth Ellison
+/ Concepts of Biology OpenStax)
+Biology is a science that gathers knowledge about the natural world (Figure 1.18). Specifically,
+biology is the study of life. Biological discoveries are made by a community of researchers who
+work both individually and together using agreed-on methods. The methods of science include
+careful observation, record keeping, logical and mathematical reasoning, experimentation, and
+submitting conclusions to the scrutiny of others. Science also requires considerable imagination
+and creativity; a well-designed experiment is commonly described as elegant or beautiful.
+Science has significant practical implications and applications, for example, in the prevention of
+disease (Figure 1.19). Other types of science are motivated by curiosity. Whatever its goal, there
+is no doubt that science, including biology, has transformed human existence and will continue
+to do so.
+16 Return to Table of Contents
+Figure 1.19 In this micrograph, the bacterium is
+visualized using a scanning electron microscope
+and digital colorization. (credit: Eric Erbe;
+digital colorization by Christopher Pooley,
+USDA-ARS / Concepts of Biology OpenStax)
+The Nature of Science
+Science can be defined as knowledge about the natural world. It is a precise way of learning
+about the world and is largely responsible for the technological revolutions that have taken place.
+There are, however, areas of knowledge and human experience that the methods of science
+cannot be applied to. These include such things as answering moral questions, aesthetic
+questions, or spiritual questions. Science cannot investigate these areas because they are outside
+the realm of natural phenomena and cannot be observed and measured.
+The scientific method is a method of research with defined steps that includes careful
+observation and experiments. The steps of the scientific method will be examined in greater
+detail later, but one of the most important aspects of the scientific method is the testing of
+hypotheses. A hypothesis (plural hypotheses) is a suggested explanation for a scientific question
+or an observation, which can be tested. A good hypothesis should be clear and concise. It should
+also lead to predictions, which are statements that describe what should happen if the hypothesis
+is correct and supported. A hypothesis should also be falsifiable, meaning the hypothesis can be
+incorrect if data that is collected refutes the hypothesis. An example of a hypothesis that is not
+falsifiable is, “Chicago is the most beautiful city in the world.” There is no experiment that might
+show this statement is false. Once a hypothesis has undergone rigorous testing, and large
+amounts of data have been collected by multiple research groups who have drawn the same or
+similar conclusions, the hypothesis is referred to as a theory. In science, a theory is a confirmed
+explanation for a set of observations or phenomena that has been thoroughly tested and
+supported with substantial amounts of data. In this way, it is very different than a hypothesis.
+However, like hypotheses, theories are testable, falsifiable, and lead to predictions. A scientific
+theory is the foundation of scientific knowledge. Also, in many scientific disciplines (less so in
+biology), there are scientific laws, often expressed in mathematical formulas. Scientific laws
+describe how elements of nature will behave under certain specific conditions. There is not a
+strict process that a hypothesis must go through to become a theory or a law. Hypotheses are the
+day-to-day material that scientists work with, and they are developed within the context of
+theories. Laws are concise descriptions of parts of the world that are amenable to formulaic or
+mathematical description.
+Natural Sciences
+Those fields of science related to the physical world and its phenomena and processes are
+considered natural sciences. There is no complete agreement when it comes to defining what the
+natural sciences include (Figure 1.20). For some experts, the natural sciences are astronomy,
+biology, chemistry, earth science, and physics. Other scholars choose to divide natural sciences
+into life sciences and physical sciences. Life sciences study living things and include biology.
+Physical sciences study nonliving matter and include astronomy, physics, and chemistry. Some
+disciplines, such as biophysics and biochemistry, build on two sciences, and are interdisciplinary.
+Figure 1.20 Some fields of science include
+astronomy, biology, computer science,
+geology, logic, physics, chemistry, and
+mathematics. (credit: "Image Editor" Flickr /
+Concepts of Biology OpenStax)
+Scientific Inquiry
+One thing is common to all forms of science: the ultimate goal is to obtain knowledge. Curiosity
+and inquiry are the driving forces for the development of science. Scientists seek to understand
+the world and the way it operates. Two methods of logical thinking are used: inductive reasoning
+and deductive reasoning.
+Inductive reasoning is a form of logical thinking that uses related observations to arrive at a
+general conclusion. This type of reasoning is common in descriptive science. A life scientist such
+as a biologist makes observations and records them. These data can be qualitative, which is
+descriptive or categorical, or they can be quantitative, consisting of numbers. From many
+observations, the scientist can infer conclusions, inductions, based on evidence. Inductive
+reasoning involves formulating generalizations inferred from careful observation and the analysis
+of a large amount of data. Brain studies often work this way. Many brains are observed while
+people are doing a task. The part of the brain that lights up, indicating activity, is then
+demonstrated to be the part controlling the response to that task.
+18 Return to Table of Contents
+Deductive reasoning or deduction is the type of logic used in hypothesis-based science. In
+deductive reasoning, the pattern of thinking moves in the opposite direction as compared to
+inductive reasoning. Deductive reasoning is a form of logical thinking that uses a general
+principle or law to predict specific results. From those general principles, a scientist can
+extrapolate and predict the specific results that would be valid so long as the general principles
+are valid. For example, a prediction would be that if the climate is becoming warmer in a region,
+the distribution of plants and animals should change. Comparisons have been made between
+distributions in the past and the present, and the many changes that have been found are
+consistent with a warming climate. Finding the change in distribution is evidence that the climate
+change conclusion is valid.
+Both types of logical thinking are related to the two main pathways of scientific study:
+descriptive science and hypothesis-based science. Descriptive or discovery science aims to
+observe, explore, and discover. Hypothesis-based science begins with a specific question or
+problem and a potential answer or solution that can be tested. The boundary between these two
+forms of study is often blurred because most scientific endeavors combine both approaches.
+Observations lead to questions, questions lead to forming a hypothesis as a possible answer to
+those questions, and then the hypothesis is tested. Thus, descriptive science and hypothesis-based
+science are in continuous dialogue.
+Hypothesis Testing
+Biologists study the living world by posing questions about it and seeking science-based
+responses. This approach is common to other sciences as well and is often referred to as the
+scientific method.
+The scientific method typically starts with an observation that leads to a question. Observations
+can be made using any or all of an individual's general senses such as touch and/or their special
+senses such as vision. (Students planning to take Anatomy and Physiology will learn more about
+your different senses.) Let’s think about a scenario that starts with an observation and apply the
+scientific method to address the observation. One Monday morning, a student arrives in class and
+quickly discovers that the classroom is too warm. That is an observation that also describes a
+problem: the classroom is too warm. The student then asks a question: “Why is the classroom so
+arm?”
+Recall that a hypothesis is a testable explanation to the question. Several hypotheses may be
+proposed. For example, one hypothesis might be, “The classroom is warm because no one turned
+on the air conditioning.” But there could be other responses to the question, and therefore other
+hypotheses may be proposed. A second hypothesis might be, “The classroom is warm because
+there is a power failure, and so the air conditioning doesn’t work.”
+Once a hypothesis has been formulated, a prediction can be made. A prediction is similar to a
+hypothesis, but it typically has the format “If . . . then . . . .” For example, the prediction for the
+first hypothesis might be, “If the student turns on the air conditioning, then the classroom will no
+longer be too warm.”
+A hypothesis must be testable to ensure that it is valid. For example, a hypothesis that depends
+on what a bear thinks is not testable, because it can never be known what a bear thinks. To test a
+hypothesis, a researcher will conduct one or more experiments designed to eliminate one or more
+of the hypotheses. This is important. A hypothesis can be shown to be false or eliminated, but it
+can never be proven true. Science does not deal with proof, like mathematics. If an experiment
+supports the hypothesis, this is not to say that down the road, a better explanation will not be
+found, which is why the word "prove" is not used when a hypothesis is supported.
+Each experiment will have variables, controls, and experimental groups. A variable is any part of
+the experiment that can vary or change during the experiment. There are typically three kinds of
+variables: independent, dependent, and standardized. The independent variable is the variable
+that is being altered or changed by the researcher. It is the variable whose effect is being tested.
+The dependent variable is the variable that may change when the independent variable is
+applied. This is what the researcher will observe, measure, and record during the experiment.
+The standardized variables are variables that must be kept consistent among all test groups;
+otherwise, they can affect the outcome or results of the experiment. The experimental groups in
+an experiment receive varying types or amounts of the independent variable. A control group is
+usually included as a basis of comparison for the experimental groups. For the control group the
+independent variable is absent or set to some predetermined standard. Look for the variables,
+controls, and experimental group(s) in the following example.
+An experiment is conducted to test the hypothesis that phosphate availability limits the growth of
+algae in freshwater ponds. A series of artificial ponds are filled with water, and half of them are
+treated by adding phosphate each week, while the other half is treated by adding salt. Salt is a
+known substance that is not used by algae. The independent variable here is the phosphate. The
+experimental groups are the ponds to which phosphate was added, and the control group is the
+ponds to which the salt was added. Adding the salt is a control against the possibility that adding
+extra matter to the pond influences algae growth. Some factors must be standardized in both the
+control and experimental ponds. For example, both the temperature and pH of the water should
+be standardized. If the water in the control ponds has a significantly higher temperature or pH
+compared to the water used in the experimental ponds, this could influence the growth of algae.
+These factors need to be measured and kept relatively constant between the two groups. These
+are examples of standardized variables. If the ponds treated with phosphate show more algae
+growth than the control ponds, then we have found support for our hypothesis. If they do not,
+then we reject our hypothesis. Be aware that rejecting a hypothesis does not determine whether
+or not the other hypotheses can be accepted; it simply eliminates one hypothesis that is not valid
+(Figure 1.21).
+20 Return to Table of Contents
+Figure 1.21 The scientific method is a
+series of defined steps that include
+experiments and careful
+observation. (credit: Fowler et al. /
+Concepts of Biology OpenStax)
+In the example below, the scientific method is used to solve an everyday problem.
+Answers: (3) hypothesis; (4) prediction; The hypothesis would be rejected.
+Hypothesis 2: The toaster has a loose wire and is broken.
+The scientific method is not as rigid and structured as it might first appear. Sometimes an
+experiment leads to conclusions that favor a change in approach. Often, experiments bring about
+entirely new scientific questions. Many times, science does not operate linearly; instead,
+scientists continually draw inferences and make generalizations, finding patterns as their research
+proceeds. Scientific reasoning is more complex than the scientific method alone suggests.
+Basic and Applied Science
+The scientific community has been debating for the last few decades about the value of different
+types of science. Is it valuable to pursue science for the sake of simply gaining knowledge, or
+does scientific knowledge only have worth if we can apply it to solving a specific problem or
+bettering our lives? This question focuses on the differences between two types of science: basic
+science and applied science.
+Basic science or “pure” science seeks to expand knowledge regardless of the short-term
+application of that knowledge. It is not focused on developing a product or a service of
+immediate public or commercial value. The immediate goal of basic science is knowledge for
+knowledge’s sake, though this does not mean that in the end, it may not result in an application.
+In contrast, applied science or “technology,” aims to use science to solve real-world problems,
+making it possible, for example, to improve crop yield, find a cure for a particular disease, or
+save animals threatened by a natural disaster. In applied science, the problem is usually defined
+by the researcher.
+One example of how basic and applied science can work together occurred with the discovery of
+the DNA structure. This discovery then led to the understanding of the molecular mechanisms
+that control DNA replication. Every human has unique chromosomes, strands of DNA wrapped
+around proteins, found in their cells. DNA provides the instructions necessary for life. During
+cell division, new copies of DNA must be made before a cell divides to form two new cells
+(Figure 1.22). Understanding the mechanisms of DNA replication enabled scientists to develop
+laboratory techniques that are now used to identify genetic diseases, pinpoint individuals who
+were at a crime scene, and determine paternity. Without basic science, it is unlikely that applied
+science would exist.
+Figure 1.22 Shows DNA replication and cell division by the process of mitosis. Note: diploid
+means each cell has pairs of chromosomes. (credit: Mysid / Wikimedia Commons)
+22 Return to Table of Contents
+Reporting Scientific Work
+Whether scientific research is basic science or applied science, scientists must share their
+findings for other researchers to expand and build upon their discoveries. Communication and
+collaboration within and between sub-disciplines of science are key to the advancement of
+knowledge in science. For this reason, an essential aspect of a scientist’s work is disseminating
+results and communicating with peers. Scientists can share results by presenting them at a
+scientific meeting or conference, but this approach can reach only a few individuals who are
+present. Instead, most scientists present their results in peer-reviewed articles that are published
+in scientific journals. Peer-reviewed articles are scientific papers that are reviewed, usually
+anonymously, by a scientist’s colleagues, or peers. These colleagues are qualified individuals,
+often experts in the same research area, who judge whether the scientist’s work is suitable for
+publication. The process of peer review helps to ensure that the research described in a scientific
+paper is original, significant, logical, and thorough.
+There are many journals and the popular press that do not use a peer-review system. Results of
+any studies published in non-peer reviewed forums are not always reliable, and caution should be
+used when examining the validity of the work. Sometimes information can be portrayed as
+scientific fact but lack objective, repeatable data. Pseudoscience is claims or beliefs that are
+represented as scientific fact but cannot be evaluated using the scientific method. For example,
+astrology is based on a set of beliefs that connect an individual's personality traits with their
+astrological sign. Scientists using the scientific method have not been able to generate any data
+that supports these claims and connections. As a result, astrology can be used as an example of
+pseudoscience.
+Today, data and information are readily accessible online through the internet. The internet
+offers a unique platform to share information across the world, which can help advance both
+scientific discovery and knowledge. However, it is always important to consider when looking at
+information online, where the data is coming from, and how valid this information is.
+Section Summary
+Biology is the science that studies living organisms and their interactions with one another and
+their environments. Science attempts to describe and understand the nature of the universe in
+whole or in part. Science has many fields; those fields related to the physical world and its
+phenomena are considered natural sciences.
+A hypothesis is a tentative, testable explanation for an observation or question. A scientific
+theory is a well-tested and consistently verified explanation for a set of observations or
+phenomena that has been universally accepted by the scientific community. A scientific law is a
+description, often in the form of a mathematical formula. Two types of logical reasoning are used
+in science. Inductive reasoning uses results to produce general scientific principles. Deductive
+reasoning is a form of logical thinking that predicts results by applying general principles. The
+common thread throughout scientific research is the use of the scientific method. Scientists
+present their results in peer-reviewed scientific papers published in scientific journals.
+Science can be basic or applied. The main goal of basic science is to expand knowledge without
+any expectation of short-term practical application of that knowledge. The primary goal of
+applied research, however, is to solve practical problems.
+Exercises
+1. In the example below, the scientific method is used to solve an everyday problem. Which
+part of the example below is the hypothesis? Which is the prediction? Based on the
+results of the experiment, is the hypothesis supported? If it is not supported, propose
+some alternative hypotheses. Jose notices that all the trees in his backyard are dying.
+They are having a usual dry summer with very little rainfall. His mom also applied
+fertilizer to the lawn in the early spring. Jose is curious, "why are the trees are all dying?"
+Jose thinks that because there has been very little rainfall that explains why the trees are
+dying. If he waters the trees, then they should begin to grow and stop dying. After
+watering the trees every day for two months, Jose notices that the trees still seem to be
+dying.
+2. ________claims or beliefs that are portrayed as scientific fact but cannot be evaluated
+using the scientific method.
+a. Hypothesis
+b. Variable
+c. Pseudoscience
+d. Theory
+3. The type of logical thinking that uses related observations to arrive at a general
+conclusion is called ________.
+a. deductive reasoning
+b. the scientific method
+c. hypothesis-based science
+d. inductive reasoning
+4. Explain the difference between a hypothesis and a theory.
+24 Return to Table of Contents
+Answers
+1. The hypothesis is the trees are dying because of the lack of water, and the prediction is if he
+waters the trees, then they should stop dying. The original hypothesis is not supported, because
+although he waters the trees, they continue to die. Alternative hypotheses maybe because his
+mom added fertilizer to the lawn; the trees are dying.
+2. (c)
+3. (d)
+4. A hypothesis is a testable explanation for a scientific question or an observation, which should be
+both falsifiable and lead to predictions. Once a hypothesis has undergone rigorous testing by
+many different scientific groups who have drawn the same or similar conclusions, it is referred to
+as a scientific theory. A scientific theory, therefore, is also testable, leads to predictions, and is
+falsifiable; however, it has been thoroughly tested and supported with substantial amounts of
+data. A scientific theory is the foundation of scientific knowledge.
+Glossary
+biology: the study of life
+control: a part of an experiment that does not change during the experiment
+deductive reasoning: a form of logical thinking that uses a general statement to forecast results
+dependent variable: the variable that will change when the independent variable is altered; this
+is what the researcher will measure or observe during the experiment
+experimental group: the group where the independent variable is applied
+falsifiable: it can be shown to be false by experimental results
+hypothesis: a suggested explanation for an event, which can be tested
+independent variable: is the variable that is being altered or changed by the researcher; it is the
+variable being tested
+inductive reasoning: a form of logical thinking that uses related observations to arrive at a
+general conclusion
+peer-reviewed article: a scientific report that is reviewed by a scientist’s colleagues before
+publication
+predictions: statements that describe what should happen if the hypothesis is supported
+pseudoscience: claims or beliefs that are portrayed as scientific fact but cannot be evaluated
+using the scientific method
+qualitative data: data that is descriptive
+quantitative data: data that is numerical
+science: the knowledge that covers general truths or the operation of general laws, mainly when
+acquired and tested by the scientific method
+scientific method: a method of research with defined steps that include experiments and careful
+observation
+scientific theory: a thoroughly tested and confirmed explanation for observations or phenomena
+standardized variable: variables that must be kept consistent otherwise they can affect the
+outcome or results of the experiment

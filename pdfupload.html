@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="favicon.png">
+  
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+  
+    <link href="https://fonts.googleapis.com/css2?family=Display+Playfair:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <title>EduVox</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <style>
+        #pdf-canvas {
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="result"></div>
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+    <!-- navbar -->
+    <nav class="site-nav mb-5" style="background-color: #136ad5; height:80px">
+        <div class="sticky-nav js-sticky-header">
+          <div class="container position-relative">
+            <div class="site-navigation text-center">
+              <a href="index.html" class="logo menu-absolute m-0" >EduVox<span class="text-primary">.</span></a>
+    
+              <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+                <li class="active"><a href="index.html" >Home</a></li>
+                <li class="has-children">
+                  <a href="#" >Subscription Plans</a>
+                  <ul class="dropdown">
+                    <li><a href="elements.html" >Help Books</a></li>
+                    <li class="has-children">
+                      <a href="#" style="color:black">Self-Help Books</a>
+                      <ul class="dropdown">
+                        <li><a href="#" style="color:black">Autobiography</a></li>
+                        <li><a href="#" style="color:black">Non-Fictional</a></li>
+                        <li><a href="#" style="color:black">Novels</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Poetry</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html#currentNews">News</a></li>
+                <li><a href="index.html#aboutUs">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://eduvoxvisionailearningtool-8zi8smfx3vnznkia2ek3kn.streamlit.app/">Vision learning </a></li>
+                <li><a href="">Listen to PDF</a></li>
+              </ul>
+              
+              <a href="templates/signup.html" class="btn-book btn btn-secondary btn-sm menu-absolute">Sign-In</a>
+    
+              <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+                <span></span>
+              </a>
+    
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <br><br><br><br>
+    <div style="margin-left:20px">
+        <h1>Upload pdf</h1>
+        <input type="file" id="pdf-upload" accept="application/pdf">
+        <div id="pdf-text"></div>
+    </div>
+
+    <script>
+        document.getElementById('pdf-upload').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file && file.type === 'application/pdf') {
+                const fileReader = new FileReader();
+                fileReader.onload = function() {
+                    const typedArray = new Uint8Array(this.result);
+                    loadPDF(typedArray);
+                };
+                fileReader.readAsArrayBuffer(file);
+            } else {
+                alert('Please upload a valid PDF file.');
+            }
+        });
+
+        function loadPDF(pdfData) {
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
+            const loadingTask = pdfjsLib.getDocument({data: pdfData});
+            loadingTask.promise.then(pdf => {
+                console.log('PDF loaded');
+                let text = '';
+
+                let pagesPromises = [];
+                for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                    pagesPromises.push(pdf.getPage(pageNum).then(page => {
+                        return page.getTextContent().then(textContent => {
+                            let pageText = '';
+                            textContent.items.forEach(item => {
+                                pageText += item.str + ' ';
+                            });
+                            return pageText;
+                        });
+                    }));
+                }
+
+                Promise.all(pagesPromises).then(pagesText => {
+                    pagesText.forEach(pageText => {
+                        text += pageText + '\n\n';
+                    });
+
+                    document.getElementById('pdf-text').innerText = text;
+                    speak(text);
+                });
+            }).catch(reason => {
+                console.error('Error loading PDF:', reason);
+                alert('Error loading PDF: ' + reason.message);
+            });
+        }
+
+        let utterance = null;
+
+        function speak(text) {
+            utterance = new SpeechSynthesisUtterance(text);
+            utterance.rate = 1; // Default speed
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function stopSpeaking() {
+            window.speechSynthesis.cancel();
+        }
+
+        function changeSpeed(rate) {
+            if (utterance) {
+                utterance.rate = rate;
+                window.speechSynthesis.cancel();
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function continueSpeaking() {
+            if (utterance) {
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function rereadLastLines(lines = 5) {
+            let textArray = document.getElementById('pdf-text').innerText.split('\n');
+            let lastLines = textArray.slice(-lines).join(' ');
+            speak(lastLines);
+        }
+
+        function goHome() {
+            window.location.href = 'index.html';
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+
+        function reloadPage() {
+            window.location.reload();
+        }
+
+        const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+        recognition.continuous = true;
+        recognition.interimResults = false;
+        recognition.lang = 'en-US';
+
+        recognition.onresult = (event) => {
+            const transcript = event.results[event.resultIndex][0].transcript.trim().toLowerCase();
+            console.log('Voice Command:', transcript);
+
+            if (transcript.includes('stop')) {
+                stopSpeaking();
+            } else if (transcript.includes('continue')) {
+                continueSpeaking();
+            } else if (transcript.includes('speed')) {
+                const speed = parseFloat(transcript.split('speed ')[1]);
+                if (!isNaN(speed) && speed > 0) {
+                    changeSpeed(speed);
+                }
+            } else if (transcript.includes('home')) {
+                goHome();
+            } else if (transcript.includes('reread')) {
+                const lines = parseInt(transcript.split('lines ')[1]);
+                if (!isNaN(lines) && lines > 0) {
+                    rereadLastLines(lines);
+                } else {
+                    rereadLastLines();
+                }
+            } else if (transcript.includes('go back') || transcript.includes('back')) {
+                goBack();
+            } else if (transcript.includes('reload')) {
+                reloadPage();
+            }
+        };
+
+        recognition.onerror = (event) => {
+            console.error('Speech recognition error:', event.error);
+        };
+
+        recognition.onend = () => {
+            console.log('Speech recognition service disconnected');
+            recognition.start();
+        };
+
+        recognition.onspeechend = () => {
+            console.log('Speech recognition has stopped.');
+        };
+
+        recognition.onstart = () => {
+            console.log('Speech recognition service has started');
+        };
+
+        recognition.start();
+
+        window.addEventListener('beforeunload', () => {
+            stopSpeaking();
+            recognition.stop();
+        });
+    </script>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
