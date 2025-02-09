@@ -12,17 +12,16 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    serverSelectionTimeoutMS: 5000, // Time before timeout
-})
-.then(() => console.log("MongoDB Connected"))
-.catch((err) => console.error("MongoDB Connection Error:", err));
+mongoose.connect("your-mongo-db-url");
 
+const UserSchema = new mongoose.Schema({
+    name: String,
+    email: String,
+    password: String
+});
 
-const User = require("./models/user");
-// 🔹 Signup Route
+const User = mongoose.model("User", UserSchema);
+
 app.post("/signup", async (req, res) => {
     try {
         const { name, email, password } = req.body;
@@ -32,6 +31,11 @@ app.post("/signup", async (req, res) => {
         }
 
         console.log("Received signup request:", { name, email });
+
+        const existingUser = await User.findOne({ email });
+        if (existingUser) {
+            return res.status(400).json({ message: "User already exists" });
+        }
 
         // Hash password before saving
         const hashedPassword = await bcrypt.hash(password, 10);
