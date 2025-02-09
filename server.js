@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect("your-mongo-db-url");
+mongoose.connect("mongodb+srv://muskangarg1108:sRPN7ZAfSErl0pkK@cluster0.y0ce3.mongodb.net/");
 
 const UserSchema = new mongoose.Schema({
     name: String,
